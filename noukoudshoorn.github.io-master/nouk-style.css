@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Jacques';
+  src: URL('./files/font.ttf') format('truetype');
+}
+
+body {
+    margin: 5% auto;
+    background: #fff2d9;
+    color: #444444;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    text-shadow: 0 1px 0 #ffffff;
+    margin-bottom: 4%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+code {
+    background: white;
+}
+
+a {
+    border-bottom: 1px solid #444444;
+    color: #444444;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 0;
+}
+
+.hidden-link {
+  color: inherit;
+  text-decoration: inherit;
+  border-bottom: inherit;
+}
+
+h1 {
+    margin-bottom: 0;
+    line-height: 1em;
+}
+
+h2 {
+    color: #723563;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bluelink {color: inherit; text-decoration: none; border-bottom: none;}
+.bluelink:hover {border-bottom: 1px solid #723563}
+
+.redlink {color: #B0C082; text-decoration: none; border-bottom: none;}
+.redlink:hover {border-bottom: 1px solid #B0C082}
+
+#nav {margin-top: 0px; line-height: 1; color: #B0C082;}
+#nav {font-size: 75%}
+#nav ul li { display: inline;}
+#nav {overflow: hidden; margin: 0; }
+#nav ul { list-style: none; padding: 0; margin-left: -3px}
+#nav ul li:before { content: " ⋅ "; }
+#nav ul #first-li:before {
+   content: "";
+}
+
+.colored-letter {
+	color: #B0C082;
+	font-family: Jacques;
+	font-size: 56px;
+}
+
+.title-letter {
+	color: #0C0F11;
+	font-family: Helvetica;
+	font-size: 36px;
+}
+
+ul { list-style-type: "♣  "; }
+
+#bio {margin-top: 5%;}
+
+footer {font-size: 75%}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+#anouk-picture {
+    margin-bottom: inherit;
+    margin-right: 0px;
+    max-width: 200px;
+    width: 40vw;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    outline: 2px solid #723563;
+    outline-offset: 7px;
+}
+
+hr {
+    margin-top: 4%;
+}
+
+#copyright-info {
+    float: left;
+    margin-bottom: 7%;
+}
+
+#linktotop-parent {
+    float: right;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+     text-align: center;
+}
+
+#center-container {
+    text-align: center;
+}
