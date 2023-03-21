@@ -91,16 +91,27 @@ footer {font-size: 75%}
     }
 }
 
-#anouk-picture {
+#pic-container {
+    display: inline-block;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    -khtml-border-radius: 46px;
+    border: 2px solid #723563;
     margin-bottom: inherit;
     margin-right: 0px;
+}
+
+#pic-container img {
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    -khtml-border-radius: 46px;
+    vertical-align: middle;
     max-width: 200px;
     width: 40vw;
     height: auto;
-    margin-top: 10px;
-    border-radius: 40px;
-    outline: 2px solid #723563;
-    outline-offset: 7px;
+    padding: 7px;
 }
 
 hr {
