@@ -66,6 +66,13 @@ p {
    content: "";
 }
 
+#nav um li { display: inline;}
+#nav um { list-style: none; padding: 0; margin-left: -3px}
+#nav um li:before { content: " ⋅ "; }
+#nav um #first-li:before {
+   content: "";
+}
+
 .colored-letter {
 	color: #B0C082;
 	font-family: Jacques;
