@@ -79,7 +79,10 @@ p {
 }
 
 ul.a { list-style-type: "-  "; }
-ul.b { list-style-type: "♣  "; }
+ul.klaver { list-style-type: "♣  "; }
+ul.schoppen { list-style-type: "♠  "; }
+ul.ruiten { list-style-type: "♦  "; }
+ul.harten { list-style-type: "♥  "; }
 
 #bio {margin-top: 5%;}
 
