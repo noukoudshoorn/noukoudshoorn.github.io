@@ -78,7 +78,8 @@ p {
 	font-size: 36px;
 }
 
-ul { list-style-type: "♣  "; }
+ul.a { list-style-type: "-  "; }
+ul.b { list-style-type: "♣  "; }
 
 #bio {margin-top: 5%;}
 
